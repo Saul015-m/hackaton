@@ -1,0 +1,70 @@
+
+.tsoo1 {
+    width: 100%;
+    padding: 78px 0px;
+    background: white;
+}
+
+.tsoo2 {
+    width: 550px;
+    margin-right: -150px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tsoo2 h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+
+.tsoo2 p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.tsoo1 img {
+    height: auto;
+    width:400px;
+}
+
+.tso {
+    background: #f9004d;
+    color: white;
+    text-decoration: none ;
+    border: 2px solid transparent;
+    font-weight: bbold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 5%;
+    margin-bottom: -7%;
+}
+
+
+
+
+
+.ts {
+    color: rgb(230, 61, 89)
+}
+
+
+@media (max-width: 400px) {
+    .tsoo1 {
+        width: 100px;
+    }   
+    }

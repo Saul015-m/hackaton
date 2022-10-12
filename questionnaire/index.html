@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="card.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <h2>Questionnaire</h2>
+                <div class="inputbox" id="input-text">
+                    <input type="text" required="required">
+                    <span>Votre TEAM</span>
+                    <i></i>
+                </div>
+                <div class="inputbox" id="textarea">
+                    <textarea ></textarea>
+                    <span>Votre question</span>
+                    <i></i>
+                </div>
+                <input type="submit" value="Valider" class="btn">
+            </div>
+        </div>
+    </div>
+    <svg>
+       <filter id="wavy">
+           <feTurbulence x="0" y="0" baseFrequency="0.02"
+            numOctaves="5" seed="2" >
+                <animate attributeName="baseFrequency" dur="60s" values="0.02;0.05;0.02" repeatCount="indefinite" /> 
+           </feTurbulence>
+           <feDisplacementMap in="SourceGraphic" scale="30" />
+       </filter> 
+    </svg>
+</body>
+</html>
